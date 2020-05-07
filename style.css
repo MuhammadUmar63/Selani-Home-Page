@@ -1,0 +1,341 @@
+fieldset{
+    border-style: none; 
+}
+.head{
+    background-color: rgb(60, 90, 226);
+    text-align: center;
+    font-style: normal; 
+    color:whitesmoke; 
+}
+
+button{
+  color: green;
+  border-radius: 1px;
+  cursor: pointer;
+}
+button:hover{
+    border-color: turquoise;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logos:hover{
+     background-color: white;
+}
+
+.second{
+    border-style:none ;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.topnav {
+    background-color: none;
+    overflow: hidden;
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  
+  
+  .active {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+
+  }
+  
+ 
+  .topnav .icon {
+    display:ruby-text-container ;
+  }
+  
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+  
+ 
+  .dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px 12px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ 
+  .dropdown-content a {
+    float: none;
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color:blue;
+    color: white;
+  }
+  
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: blue;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  
+ 
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  .image{
+      width:100%;
+      height:100%;
+  }
+#logo{
+    width:30%;
+      height:20%;
+}
+.mian{
+    display:flex;
+    width: 100%;
+    padding-top: 15px;
+    
+  }
+
+  h1{
+    color:blue;
+    text-align: center;
+    font-family: monospace;
+    padding-top: 15px;
+    
+  }
+  span{
+    color:rgb(0, 180, 75);
+    
+  }
+  
+    .intro{
+      text-align: justify;
+     padding-top:10ch;
+     font-size: 18px;
+     color: rgb(131, 127, 127);
+     line-height: 30px;
+     background-color: rgb(241, 240, 240);
+     display:block;
+     padding-left: 4ch;
+     padding-right: 4ch;
+     padding-bottom: 4ch;
+    }
+    p{
+      padding-top: 2ch;
+    }
+  
+  
+    .info{
+      background-color: rgb(52, 52, 245);
+       color: white;
+       line-height: 20px;
+       text-align: center;
+       font-family: monospace;
+       font-weight: bold;
+       font-size: 15px;
+       display: inline-table;
+    }
+  
+    .black{
+      display: inline-block;
+      margin:30px;
+  }
+  .white{
+      display: inline-block;
+      margin: 30px;
+  }
+  
+  
+  
+  nav{
+    display: inline-flex;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  .doing{
+     background-color: rgb(243, 245, 246);
+     
+  }
+  
+  
+  .dabba{
+    display:auto;
+    padding-bottom: 20px;
+  }
+  
+  .main{
+    padding: 30px;
+    margin: 10px 10px 10px 10px;
+    border: 1px ;
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    padding-top: 40px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-table;
+  }
+  
+  .work{
+    color: rgb(69, 69, 199) ;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width:auto;
+    display:inline-table;
+  }
+ 
+  #mian{
+    padding:none;
+    display: inline-table;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .mission{
+    padding: 10px;
+    margin: 10px 15px 0px 15px;
+    border: 1px ;
+    width: 250px;
+    background-color: rgb(240, 239, 255);
+    display: inline-flex;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(74, 74, 230);
+  }
+  
+  .details{
+    color: black;
+    font-size: 10px;
+  }
+  
+  .Events{
+    border: 1px;
+    width: 250px;
+    height: 140px;
+    overflow-y:scroll;
+    float: right;
+    padding-top: 25px;
+  }
+  
+  
+  .gallery{
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+  
+  .usef{
+    text-align: center;
+    color: #f9f9f9;
+    font-size: 15px;
+  }
+  
+  .links{
+    background-color: black;
+    color: grey;
+    font-size: 10px;
+  }
+  
+  .footer{
+    background-color: blue;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+  
+  #top{
+    float: right;
+  }
+  #top:hover{
+    background-color: black;
+  }
+  #top:active{
+    display: block;
+    position: relative;
+  }
+  
+  
+  @media screen and (max-width: 600px){
+    *{
+      width: auto;
+    }
+  }
+  
+  
+  
